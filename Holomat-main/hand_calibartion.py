@@ -14,7 +14,7 @@ mp_drawing = mp.solutions.drawing_utils
 cap = cv2.VideoCapture(1)
 
 # Projector width and height
-width, height = 1200, 1080
+width, height = 1920, 1080
 
 
 # Print the coordinates of the black layout rectangle

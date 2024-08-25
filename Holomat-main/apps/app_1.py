@@ -9,7 +9,7 @@ from camera_manager import CameraManager
 pygame.init()
 # Initialize the mixer
 mixer.init()
-SCREEN_SIZE = (1920, 1200)
+SCREEN_SIZE = (1920, 1080)
 BLACK = (0, 0, 0)
 LIGHT_BLUE = (173, 216, 230)
 WHITE = (255, 255, 255)
@@ -127,5 +127,5 @@ def run(screen, camera_manager):
 if __name__ == '__main__':
     screen = pygame.display.set_mode(SCREEN_SIZE)
     pygame.display.set_caption('Drawing App')
-    camera_manager = CameraManager('./M1.npy', 1080, 1200)
+    camera_manager = CameraManager('./M1.npy', 1920, 1080)
     run(screen, camera_manager)
